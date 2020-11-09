@@ -1,0 +1,28 @@
+{
+	"name": "cypress-docker",
+	"version": "1.0.0",
+	"description": "Cypress with Docker",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:run": "cypress run"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ferisjuan/cypress-docker.git"
+	},
+	"keywords": [
+		"Cypress",
+		"Docker"
+	],
+	"author": "Juan Feris",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ferisjuan/cypress-docker/issues"
+	},
+	"homepage": "https://github.com/ferisjuan/cypress-docker#readme",
+	"dependencies": {
+		"cypress": "^5.5.0",
+		"prettier": "^2.1.2"
+	}
+}
