@@ -1,6 +1,6 @@
 describe('Cypress Tests with Docker', () => {
 	it('should load website', () => {
-		cy.visit('https>//www.example.com')
+		cy.visit('http://example.com/')
 	})
 
 	it('should load h1 element', () => {
